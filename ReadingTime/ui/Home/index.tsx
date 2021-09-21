@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import MenuSvg from '../../assets/svg/menu.svg';
 
 export const HomeScreen = () => {
   return (
@@ -9,7 +10,8 @@ export const HomeScreen = () => {
         alignItems: 'center',
         justifyContent: 'center',
       }}>
-      <Text style={{color: '#000'}}>Details Screen</Text>
+      <MenuSvg />
+      <Text style={{color: '#000'}}>Home Screen</Text>
     </View>
   );
 };
